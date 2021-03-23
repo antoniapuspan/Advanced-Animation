@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="customize.css">
+    <link rel="stylesheet" href="nav-style.css">
+    <title>Customize</title>
+</head>
+
+<body>
+    <header>
+        <div id="burger-btn-div">
+            <button id="burger-btn" onclick="toggleBurger()">
+                <img id="burger-icon" src="img/burger-icon.png" alt="">
+                <img id="close-icon" class="disp-none" src="img/x-icon.png" alt="">
+            </button>
+        </div>
+        <div id="navbar">
+            <div id="body-nav">
+                <a id="logo-anchor" href="#">
+                    <img id="nav-logo" src="" alt="">
+                </a>
+                <div id="nav-btns">
+                    <button class="nav-btn">
+                        <a href="index.html">Homepage</a>
+                    </button>
+                    <button class="nav-btn nav-selected">
+                        <a href="customize.html">Customize</a>
+                    </button>
+                    <button class="nav-btn">
+                        <a href="index.html">History</a>
+                    </button>
+                    <button class="nav-btn">
+                        <a href="index.html">About us</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="navbar-placeholder"></div>
+    </header>
+    <h1>Personalize</h1>
+    <div id="configurator">
+        <div id="product-preview">
+            <!--Add all the layers-->
+            <!-- <img src="img/feature_front.png" alt="front" class="hide" data-feature="front">
+            <img src="img/feature_temples.png" alt="temples" class="hide" data-feature="temples">
+            <img src="img/feature_lentiles.png" alt="front" class="hide" data-feature="front"> -->
+
+        </div>
+        <div class="flex">
+           
+            <div id="options">
+                Available features
+                <figure class="option" data-feature="temples">
+                    <figcaption>Temples</figcaption>
+                    <img src="img/feature_temples.png" alt="Temples" />
+                    <div id="colors-container">
+                        <svg viewBox="0 0 842 200" id="colors-temp">
+                            <rect class="color_btn" x="0" fill="#ccc0b4" value="Temples" />
+                            <rect class="color_btn" x="110" fill="#bcbcc6" value="Temples" />
+                            <rect class="color_btn" x="220" fill="#cdc3c1" value="Temples" />
+                            <rect class="color_btn" x="330" fill="#cac0be" value="Temples" />
+                            <rect class="color_btn" x="440" fill="#d1d1db" value="Temples" />
+                            <rect class="color_btn" x="550" fill="#c1bfc0" value="Temples" />
+                        </svg>
+                    </div>
+                </figure>
+                <figure class="option" data-feature="front">
+                    <figcaption>Front</figcaption>
+                    <img src="img/feature_front.png" alt="Front" />
+                    <div id="colors-container">
+                        <svg viewBox="0 0 842 200" id="colors-temp">
+                            <rect class="color_btn" x="0" fill="#ccc0b4" value="Front" />
+                            <rect class="color_btn" x="110" fill="#bcbcc6" value="Front" />
+                            <rect class="color_btn" x="220" fill="#cdc3c1" value="Front" />
+                            <rect class="color_btn" x="220" fill="#cdc3c1" value="Front" />
+                            <rect class="color_btn" x="330" fill="#cac0be" value="Front" />
+                            <rect class="color_btn" x="440" fill="#d1d1db" value="Front" />
+                            <rect class="color_btn" x="550" fill="#c1bfc0" value="Front" />
+                        </svg>
+                    </div>
+                </figure>
+                <figure class="option" data-feature="lentiles">
+                    <figcaption>Lentiles</figcaption>
+                    <img src="img/feature_lentiles.png" alt="Lentiles" />
+                    <div id="colors-container">
+                        <svg viewBox="0 0 842 200" id="colors-temp">
+                            <rect class="color_btn" x="0" fill="#d1d1db" value="Lentiles" />
+                            <rect class="color_btn" x="110" fill="#c1bfc0" value="Lentiles" />
+                            <rect class="color_btn" x="220" fill="#eaebe3" value="Lentiles" />
+                        </svg>
+                    </div>
+                </figure>
+                <figure class="option" data-feature="sunglasses">
+                    <figcaption>Sunglasses</figcaption>
+                    <img src="img/feature_glasses2.png" alt="Sunglasses" onclick="toggleSunglsses()"/>
+                </figure>
+            </div>
+            <div id="selected">
+                Selected features
+                <ul>
+                    <!-- featureElements are added here! -->
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <script src="navscript.js"></script>
+    <script src="customize.js"></script>
+</body>
+
+</html>

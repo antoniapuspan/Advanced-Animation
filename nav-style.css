@@ -110,15 +110,24 @@ a {
     }
     a {
         color: #807A7A;
+        margin-right: 20px;
     }
     #nav-btns {
+        height: 60px;
         flex-direction: row;
         margin: 0;
     }
 
+    .nav-btn {
+        height: 60px;
+        margin: 0;
+    }
     .nav-btn:hover {
         text-indent: 0%;
         cursor: pointer;
     }
 
+    .nav-selected {
+        border-bottom: 2px solid #2385A8;
+    }
 }
