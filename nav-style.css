@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+#navbar-placeholder {
+    height: 40px;
+}
+
+#burger-btn-div {
+    position: absolute;
+    height: 50px;
+    z-index: 1;
+}
+
+.disp-none {
+    display: none;
+}
+
+#navbar {
+    height: 0;
+}
+
+#burger-btn {
+    height: 40px;
+    width: 40px;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0);
+    outline: 0;
+    position: fixed;
+}
+
+#burger-btn img {
+    width: 20px;
+}
+
+#body-nav {
+    width: 50vw;
+    transform: translateX(-50vw);
+    transition-duration: .6s;
+    height: 100vh;
+    background-color: rgba(28, 40, 46, 0.88);
+    position: fixed;
+}
+
+.translate0 {
+    transform: translateX(0) !important;
+}
+
+#nav-logo {
+    width: 70px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+#nav-btns {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+a {
+    color: black;
+    font-family: montserrat;
+    font-size: 15px;
+
+}
+
+.nav-btn {
+    background-color: rgba(28, 40, 46, 0);
+    border: 0;
+    align-items: flex-start;
+    text-align: left;
+    transition-duration: .2s;
+    margin: 10px;
+}
+
+.nav-btn:hover {
+    text-indent: 5px;
+}
+
+
+
+.nav-btn a {
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 1024px) {
+    #burger-btn-div {
+        display: none;
+    }
+
+    #body-nav {
+        width: 100%;
+        display: flex;
+        padding-top: 0px;
+        transform: translateX(0vw);
+        transition-duration: 0s;
+        height: 60px;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #f8f8f8;
+        box-shadow: 0 2px 6px 0 rgba(167, 167, 167, 0.2);
+    }
+
+    #nav-logo {
+        margin: auto 20px;
+        border: 0;
+        width: 100px;
+        display: flex;
+        align-items: center;
+
+    }
+    a {
+        color: #807A7A;
+    }
+    #nav-btns {
+        flex-direction: row;
+        margin: 0;
+    }
+
+    .nav-btn:hover {
+        text-indent: 0%;
+        cursor: pointer;
+    }
+
+}

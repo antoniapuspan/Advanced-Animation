@@ -4,9 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="nav-style.css">
     <title>Glasses Configurator</title>
 </head>
 <body>
-    <script src="script.js"></script>    
+    <header>
+		<div id="burger-btn-div">
+			<button id="burger-btn" onclick="toggleBurger()">
+				<img id="burger-icon" src="img/burger-icon.png" alt="">
+				<img id="close-icon" class="disp-none" src="img/x-icon.png" alt="">
+			</button>
+		</div>
+		<div id="navbar">
+			<div id="body-nav">
+				<a id="logo-anchor" href="#">
+					<img id="nav-logo" src="img/logo3.svg" alt="">
+				</a>
+				<div id="nav-btns">
+					<button class="nav-btn">
+						<a href="index.html">Homepage</a>
+					</button>
+					<button class="nav-btn">
+						<a href="collections.html">Customize</a>
+					</button>
+					<button class="nav-btn">
+						<a href="index.html">History</a>
+					</button>
+					<button class="nav-btn">
+						<a href="index.html">About us</a>
+					</button>
+				</div>
+			</div>
+		</div>
+		<div id="navbar-placeholder"></div>
+    </header>
+    <div id="hero-container">
+        <div id="hero-text">
+            <h1>You can choose the way you see</h1>
+            <p id="info-text-hero">Made by skillfull artisans based in Copenhagen, TBD Eyewear glasses merge timeless style with sustainability, supporting the world-renowned Italian creativity.</p>
+        </div>
+        <div id="three-containers">
+            <div class="benefits" id="benefit1">
+                <p class="number">01</p>
+                <p class="benefit">Customizable</p>
+            </div>
+            <div class="benefits" id="benefit2">
+                <p class="number">02</p>
+                <p class="benefit">Premium materials</p>
+            </div>
+            <div class="benefits" id="benefit3">
+                <p class="number">03 </p>
+                <p class="benefit">Easy to choose</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script> 
+    <script src="navscript.js"></script>   
 </body>
 </html>

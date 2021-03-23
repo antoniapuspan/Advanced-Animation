@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400&family=Montserrat:wght@100&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Aleo', serif;
+    background-color: #F4F4F4;
+}
+/* ---- HERO CONTENT---- */
+
+#hero-container {
+    margin-top: 20px;
+}
+
+#hero-text {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-family: "Montserrat";
+}
+
+#hero-text h1 {
+    width: 75%;
+    text-align: left;
+    font-size: 50px;
+    font-weight: 300;
+    padding: 0 300px;
+}
+
+#info-text-hero {
+    width: 210px;
+    height: 100px;
+    font-weight: 100;
+    justify-content: center;
+}
+
+#three-containers {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+}
+.benefits {
+    background-color: #807a7a;
+    width: 350px;
+    height: 300px;
+    border: 1px solid rgb(158, 158, 158);
+    font-family: "Inconsolata";
+    padding-left: 15px;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+#benefit2 {
+    border-left: none;
+    border-right: none;
+}
+
+.benefit {
+    color: white;
+}
+.number {
+    font-size: 32px;
+    font-weight: lighter;
+    color: white;
+}
