@@ -40,24 +40,17 @@
         </div>
         <div id="navbar-placeholder"></div>
     </header>
-    <h1>Personalize</h1>
+    <h1>Customize</h1>
     <div id="configurator">
-        <div id="product-preview">
-            <!--Add all the layers-->
-            <!-- <img src="img/feature_front.png" alt="front" class="hide" data-feature="front">
-            <img src="img/feature_temples.png" alt="temples" class="hide" data-feature="temples">
-            <img src="img/feature_lentiles.png" alt="front" class="hide" data-feature="front"> -->
-
-        </div>
+        <div id="product-preview"></div>
         <div class="flex">
-           
             <div id="options">
-                Available features
+                <h2 id="opt">Available features</h2>
                 <figure class="option" data-feature="temples">
                     <figcaption>Temples</figcaption>
                     <img src="img/feature_temples.png" alt="Temples" />
-                    <div id="colors-container">
-                        <svg viewBox="0 0 842 200" id="colors-temp">
+                    <div class="colors-container">
+                        <svg viewBox="0 0 650 100" class="colors-temp colors-6">
                             <rect class="color_btn" x="0" fill="#ccc0b4" value="Temples" />
                             <rect class="color_btn" x="110" fill="#bcbcc6" value="Temples" />
                             <rect class="color_btn" x="220" fill="#cdc3c1" value="Temples" />
@@ -70,8 +63,8 @@
                 <figure class="option" data-feature="front">
                     <figcaption>Front</figcaption>
                     <img src="img/feature_front.png" alt="Front" />
-                    <div id="colors-container">
-                        <svg viewBox="0 0 842 200" id="colors-temp">
+                    <div class="colors-container">
+                        <svg viewBox="0 0 650 100" class="colors-temp colors-6">
                             <rect class="color_btn" x="0" fill="#ccc0b4" value="Front" />
                             <rect class="color_btn" x="110" fill="#bcbcc6" value="Front" />
                             <rect class="color_btn" x="220" fill="#cdc3c1" value="Front" />
@@ -85,27 +78,23 @@
                 <figure class="option" data-feature="lentiles">
                     <figcaption>Lentiles</figcaption>
                     <img src="img/feature_lentiles.png" alt="Lentiles" />
-                    <div id="colors-container">
-                        <svg viewBox="0 0 842 200" id="colors-temp">
+                    <div class="colors-container">
+                        <svg viewBox="0 0 320 100" class="colors-temp colors-3">
                             <rect class="color_btn" x="0" fill="#d1d1db" value="Lentiles" />
                             <rect class="color_btn" x="110" fill="#c1bfc0" value="Lentiles" />
                             <rect class="color_btn" x="220" fill="#eaebe3" value="Lentiles" />
                         </svg>
                     </div>
                 </figure>
-                <figure class="option" data-feature="sunglasses">
+                <figure class="option" data-feature="sunglasses" id="options-3">
                     <figcaption>Sunglasses</figcaption>
-                    <img src="img/feature_glasses2.png" alt="Sunglasses" onclick="toggleSunglsses()"/>
+                    <img src="img/feature_glasses2.png" alt="Sunglasses" onclick="toggleSunglsses()" id="sunglasses" />
                 </figure>
-            </div>
-            <div id="selected">
-                Selected features
-                <ul>
-                    <!-- featureElements are added here! -->
-                </ul>
             </div>
 
         </div>
+
+    </div>
     </div>
     <script src="navscript.js"></script>
     <script src="customize.js"></script>

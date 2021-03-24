@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400&family=Montserrat:wght@100&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -15,17 +16,26 @@ h1 {
     font-family: "Inconsolata";
     display: flex;
     justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#opt {
+    font-size: 20px;
+    margin: 0;
+
 }
 
 #configurator {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     margin: auto;
 }
 
 #product-preview {
     width: auto;
+    height: 35vw;
     display: flex;
     align-items: center;
     background-color: #f8f8f8;
@@ -35,43 +45,74 @@ h1 {
 
 #product-preview svg {
     width: auto;
-    height: 400px;
+    height: 30vw;
     padding: 20px;
 }
 
-.color_btn {
-    stroke: none;
-    display: flex;
-    flex-direction: row;
-}
 
 .flex {
-    margin-right: 5px;
+    width: 325px;
     height: auto;
+}
+
+
+
+#options {
+    margin: auto;
+    justify-content: center;
+
+}
+
+#options img {
+    width: auto;
+    height: 80px;
+}
+
+.option {
+    margin: 0;
+
+}
+h2, figcaption {
+    font-family: "Montserrat";
+}
+.colors-container {
+    width: auto;
+
+    margin-bottom: 20px;
+}
+
+.colors-temp {
+    display: block;
+}
+
+.colors-3 {
+    width: 160px;
+}
+
+.colors-6 {
+    width: 325px;
 }
 .color_btn {
     width: 100px;
     height: 100px;
     stroke: none;
 }
-
-#options img {
-    width: auto;
-    height: 100px;
-}
-
-#option {
-    display: flex;
-    flex-direction: row;
-}
-
 #Shadow_Image-2 {
     pointer-events: none;
+
 }
 
 #Sunglasses_Image {
     display: none;
+
 }
+
+#sunglasses {
+    width: 70px !important;
+    height: auto !important;
+    padding: 20px 0;
+}
+
 .g_to_interact_with {
     fill: transparent;
 }
@@ -82,4 +123,39 @@ path {
 
 .display_block {
     display: block !important;
+}
+
+@media only screen and (max-width: 1024px) {
+    #configurator {
+        flex-direction: column;
+    }
+
+    .flex {
+        width: 100%;
+    }
+
+    #product-preview {
+        height: 200px;
+    }
+    
+    #product-preview svg {
+        width: 100%;
+        padding: 0;
+    }
+
+    .option {
+        flex-direction: row;
+    }
+
+    #options {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #options-3 {
+        display: flex;
+        justify-content: left;
+    }
 }

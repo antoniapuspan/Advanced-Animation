@@ -26,7 +26,6 @@ function displaySVG(mySVGData) {
     eventListenersOnParts();
 
     let temples = document.querySelector("#Temples");
-    let front = document.querySelector("#Front");
 
     console.log(temples);
 
