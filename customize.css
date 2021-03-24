@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400&family=Montserrat:wght@100&display=swap');
-
-* {
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;400&display=swap');* {
     box-sizing: border-box;
 }
 
@@ -13,7 +12,9 @@ body {
 }
 
 h1 {
-    font-family: "Inconsolata";
+    font-family: 'Josefin Slab', serif;
+    font-weight: 800;
+    font-size: 40px;
     display: flex;
     justify-content: center;
     padding-top: 30px;
@@ -125,6 +126,19 @@ path {
     display: block !important;
 }
 
+#cart {
+    display: flex;
+	margin: auto;
+	justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+	border: 0;
+	width: 100px;
+	height: 40px;
+	background-color: #2385A8;
+	color: white;
+}
+
 @media only screen and (max-width: 1024px) {
     #configurator {
         flex-direction: column;
@@ -137,7 +151,7 @@ path {
     #product-preview {
         height: 200px;
     }
-    
+
     #product-preview svg {
         width: 100%;
         padding: 0;

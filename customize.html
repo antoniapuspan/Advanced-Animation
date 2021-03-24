@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="customize.css">
     <link rel="stylesheet" href="nav-style.css">
+    <link rel="stylesheet" href="footer.css">
+
     <title>Customize</title>
 </head>
 
@@ -51,12 +53,11 @@
                     <img src="img/feature_temples.png" alt="Temples" />
                     <div class="colors-container">
                         <svg viewBox="0 0 650 100" class="colors-temp colors-6">
-                            <rect class="color_btn" x="0" fill="#ccc0b4" value="Temples" />
-                            <rect class="color_btn" x="110" fill="#bcbcc6" value="Temples" />
-                            <rect class="color_btn" x="220" fill="#cdc3c1" value="Temples" />
-                            <rect class="color_btn" x="330" fill="#cac0be" value="Temples" />
-                            <rect class="color_btn" x="440" fill="#d1d1db" value="Temples" />
-                            <rect class="color_btn" x="550" fill="#c1bfc0" value="Temples" />
+                            <rect class="color_btn" x="0" fill="#363130" value="Temples" />
+                            <rect class="color_btn" x="110" fill="#FF7467" value="Temples" />
+                            <rect class="color_btn" x="220" fill="#B174FF" value="Temples" />
+                            <rect class="color_btn" x="330" fill="#5292C7" value="Temples" />
+                            <rect class="color_btn" x="440" fill="#8EEBE7" value="Temples" />
                         </svg>
                     </div>
                 </figure>
@@ -65,17 +66,15 @@
                     <img src="img/feature_front.png" alt="Front" />
                     <div class="colors-container">
                         <svg viewBox="0 0 650 100" class="colors-temp colors-6">
-                            <rect class="color_btn" x="0" fill="#ccc0b4" value="Front" />
-                            <rect class="color_btn" x="110" fill="#bcbcc6" value="Front" />
-                            <rect class="color_btn" x="220" fill="#cdc3c1" value="Front" />
-                            <rect class="color_btn" x="220" fill="#cdc3c1" value="Front" />
-                            <rect class="color_btn" x="330" fill="#cac0be" value="Front" />
-                            <rect class="color_btn" x="440" fill="#d1d1db" value="Front" />
-                            <rect class="color_btn" x="550" fill="#c1bfc0" value="Front" />
+                            <rect class="color_btn" x="0" fill="#363130" value="Front" />
+                            <rect class="color_btn" x="110" fill="#FF7467" value="Front" />
+                            <rect class="color_btn" x="220" fill="#B174FF" value="Front" />
+                            <rect class="color_btn" x="330" fill="#5292C7" value="Front" />
+                            <rect class="color_btn" x="440" fill="#8EEBE7" value="Front" />
                         </svg>
                     </div>
                 </figure>
-                <figure class="option" data-feature="lentiles">
+                <figure class="option" data-feature="lentiles" >
                     <figcaption>Lentiles</figcaption>
                     <img src="img/feature_lentiles.png" alt="Lentiles" />
                     <div class="colors-container">
@@ -86,16 +85,55 @@
                         </svg>
                     </div>
                 </figure>
-                <figure class="option" data-feature="sunglasses" id="options-3">
-                    <figcaption>Sunglasses</figcaption>
+                <figure class="option" data-feature="sunglasses">
+                    <figcaption>Sun protection</figcaption>
                     <img src="img/feature_glasses2.png" alt="Sunglasses" onclick="toggleSunglsses()" id="sunglasses" />
                 </figure>
             </div>
+            <button id="cart">BUY</button>
 
         </div>
 
     </div>
     </div>
+    <footer>
+		<div id="f-half1">
+			<div id="info-menu">
+				<div id="del-info-div">
+					<a href="">Delivery</a>
+					<a href="">Returns</a>
+					<a href="">Payments</a>
+				</div>
+				<div id="contact-pgs-div">
+					<a href="">About us</a>
+					<a href="">Contact</a>
+					<a href="">FAQ</a>
+				</div>
+			</div>
+			<div id="social-media-div">
+				<a href="">
+					<img class="icons" src="icons/email.png">
+				</a>
+				<a href="">
+					<img class="icons" src="icons/facebook.png">
+				</a>
+				<a href="">
+					<img class="icons" src="icons/instagram.png">
+				</a>
+				<a href="">
+					<img class="icons" src="icons/linkedin.png">
+				</a>
+
+			</div>
+			<div id="logo-div">
+				<img class="logo-style" src="img/logo.svg">
+			</div>
+		</div>
+		<div id="f-half2">
+			<p> © 2021 TBD Copenhagen, Denmark <br> Terms and conditions | Privacy | Cookies Policy </p>
+		</div>
+	</footer>
+
     <script src="navscript.js"></script>
     <script src="customize.js"></script>
 </body>
