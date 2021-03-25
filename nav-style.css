@@ -57,14 +57,6 @@
     z-index: inherit;
 }
 
-a {
-    color: black;
-    font-family: 'montserrat';
-    font-size: 15px;
-    z-index: inherit;
-    height: 100%;
-
-}
 
 .nav-btn {
     background-color: rgba(28, 40, 46, 0);
@@ -87,8 +79,15 @@ a {
 
 .nav-btn a {
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: 'montserrat';
+    font-size: 15px;
+    z-index: inherit;
     height: 100%;
-
+    padding: 0;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -126,7 +125,7 @@ a {
 
     a {
         color: #807A7A;
-        margin-right: 20px;
+        margin: 0 10px;
     }
     #nav-btns {
         height: 60px;
@@ -137,11 +136,10 @@ a {
     .nav-btn {
         height: 100%;
         margin: 0;
+        cursor: pointer;
     }
     .nav-btn:hover {
         text-indent: 0%;
-        cursor: pointer;
-        color: white;
     }
 
     .nav-selected {
