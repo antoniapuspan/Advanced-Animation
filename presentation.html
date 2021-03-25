@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="presentation.css">
+    <link rel="stylesheet" href="nav-style.css">
+    <link rel="stylesheet" href="footer.css">
+    <title>Presentation</title>
+</head>
+
+<body>
+    <header>
+        <div id="burger-btn-div">
+            <button id="burger-btn" onclick="toggleBurger()">
+                <img id="burger-icon" src="img/burger-icon.png" alt="">
+                <img id="close-icon" class="disp-none" src="img/x-icon.png" alt="">
+            </button>
+        </div>
+        <div id="navbar">
+            <div id="body-nav"> 
+                <a id="logo-anchor" href="#">
+                    <img id="nav-logo" src="" alt="">
+                </a>
+                <div id="nav-btns">
+                    <button class="nav-btn">
+                        <a href="index.html">Homepage</a>
+                    </button>
+                    <button class="nav-btn">
+                        <a href="customize.html">Customize</a>
+                    </button>
+                    <button class="nav-btn nav-selected">
+                        <a href="index.html">Presentation</a>
+                    </button>
+                    <button class="nav-btn">
+                        <a href="index.html">About us</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="navbar-placeholder"></div>
+
+    </header>
+    <img class="fullImg" id="my-img" src="img/img1.jpg">
+    <!-- <img class="fullImg" src="img/glasses_front.jpeg"> -->
+    <section id="start_section"></section>
+    <section id="the_section">
+        <p id="my-paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iste?</p>
+    </section>
+    <section id="the_section2">
+    </section>
+    <section></section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+    <script src="presentation.js"></script>
+    <script src="navscript.js"></script>   
+
+</body>
+
+</html>

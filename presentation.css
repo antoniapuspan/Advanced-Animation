@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+
+}
+
+section {
+    height: 100vh;
+    background-color: #000;
+}
+
+#start_section{
+    width: 100vw;
+    display: block;
+    z-index: 800;
+}
+
+#the_section {
+    /* background-color: antiquewhite; */
+}
+
+#the_section2 {
+    /* background-color: burlywood; */
+}
+
+#the_div {
+    height: 300px;
+}
+
+#my-paragraph {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    opacity: 0;
+    transform: translateX(-50%);
+}
+
+#the_div2 {
+    height: 300px;
+}
+
+#my-img{
+    width: 100%;
+    filter: brightness(40%);
+}
+
+.fullImg{
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+p {
+    color: rgb(224, 224, 224);
+    z-index: 10;
+}
