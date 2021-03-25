@@ -5,7 +5,7 @@ let tl = gsap.timeline({
     scrollTrigger: {
         trigger: "#the_section",
         scrub: true,
-        markers: true,
+        markers: false,
         start: "top 95%",
         end: "bottom 5%"
     }
@@ -33,7 +33,7 @@ let tl2 = gsap.timeline({
     scrollTrigger: {
         trigger: "#the_section2",
         scrub: true,
-        markers: true,
+        markers: false,
         start: "top 95%",
         end: "bottom 5%"
     }
@@ -60,7 +60,7 @@ let tl3 = gsap.timeline({
     scrollTrigger: {
         trigger: "#the_section3",
         scrub: true,
-        markers: true,
+        markers: false,
         start: "top 95%",
         end: "bottom 5%"
     }
@@ -87,7 +87,7 @@ let tl4 = gsap.timeline({
     scrollTrigger: {
         trigger: "#the_section4",
         scrub: true,
-        markers: true,
+        markers: false,
         start: "top 95%",
         end: "bottom 5%"
     }
@@ -114,7 +114,7 @@ let tl5 = gsap.timeline({
     scrollTrigger: {
         trigger: "#the_section5",
         scrub: true,
-        markers: true,
+        markers: false,
         start: "top 95%",
         end: "bottom 5%"
     }
