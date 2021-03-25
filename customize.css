@@ -12,8 +12,8 @@ body {
 }
 
 h1 {
-    font-family: 'Josefin Slab', serif;
-    font-weight: 800;
+    font-family: 'Montserrat', serif;
+    font-weight: normal;
     font-size: 40px;
     display: flex;
     justify-content: center;
@@ -74,7 +74,11 @@ h1 {
 
 }
 h2, figcaption {
-    font-family: "Montserrat";
+    font-family: "Josefin Slab";
+}
+
+figcaption {
+    font-size: 18px;
 }
 .colors-container {
     width: auto;
@@ -172,4 +176,6 @@ path {
         display: flex;
         justify-content: left;
     }
+   
+
 }

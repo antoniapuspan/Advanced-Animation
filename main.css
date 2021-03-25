@@ -17,21 +17,25 @@ body {
 }
 
 #hero-text {
+    margin-top: 100px;
     width: 100%;
     display: flex;
     flex-direction: row;
     font-family: "Montserrat";
+    margin-bottom: 100px;
 }
 
 #hero-text h1 {
+    margin: 0;
     width: 75%;
     text-align: left;
     font-size: 50px;
     font-weight: 300;
-    padding: 0 300px;
+    padding: 0 200px;
 }
 
 #info-text-hero {
+    margin-right: 190px;
     width: 210px;
     height: 100px;
     font-weight: 100;
@@ -44,6 +48,8 @@ body {
     flex-direction: row;
     margin: auto;
     justify-content: center;
+    height: 350px;
+    align-items: flex-end;
 }
 .benefits {
     background-color: #807a7a;
@@ -54,6 +60,12 @@ body {
     padding-left: 15px;
     font-size: 18px;
     border-radius: 3px;
+    transition-duration: .5s;
+}
+.benefits:hover {
+    height: 350px;
+    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 
 #benefit2 {
@@ -63,7 +75,13 @@ body {
 
 .benefit {
     color: white;
+    transition-duration: 0.5s;
 }
+
+.benefits:hover .benefit{
+    color: #2385A8;
+}
+
 .number {
     font-size: 32px;
     font-weight: lighter;
