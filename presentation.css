@@ -5,7 +5,13 @@ body {
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
-
+h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(224, 224, 224);
+    z-index: 11;
+    font-size: 30px;
+}
 section {
     height: 100vh;
     background-color: #fff;
@@ -31,8 +37,11 @@ section {
     transform: translateX(-50%);
     color: rgb(224, 224, 224);
     z-index: 10;
+    font-size: 20px;
 }
-
+.dark {
+    color: rgb(129, 129, 129);
+}
 #my-img {
     filter: brightness(40%);
 }
